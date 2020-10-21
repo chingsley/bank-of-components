@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import KcLink from '../components/KcLink';
+import ImgInBackground from '../components/ImgInBackground';
 
 const Page = styled.div`
   ${({ props }) => {
@@ -38,6 +39,9 @@ class ComponentsPage extends React.Component {
           colorOnHover={'white'}
           // bottomBorderOnHover={'2px solid #eb2f06'}
         />
+        <div>
+          <ImgInBackground />
+        </div>
       </Page>
     );
   }
